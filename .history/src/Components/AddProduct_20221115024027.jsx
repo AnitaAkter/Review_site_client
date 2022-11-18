@@ -5,7 +5,7 @@ import { AuthContext } from "../Context/AuthProvider";
 
 
 const AddProduct = () => {
-    const { user } = useContext(AuthContext);
+    const { user, loading, error } = useContext(AuthContext);
     const handelAddItem = (e) => {
         e.preventDefault();
         const name = user?.displayName;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import swal from 'sweetalert';
 
 const SRev = ({ sRev }) => {
-    const { _id, title,  reviewUser, details, reviewerImage } = sRev;
+    const { _id, title, serviceID, reviewUser, details, reviewerImage } = sRev;
     const [rev, setRev] = useState([])
 
     const handleDelete = (_id) => {

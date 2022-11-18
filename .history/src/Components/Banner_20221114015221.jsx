@@ -9,16 +9,16 @@ const Banner = () => {
         <div>
             <div className="carousel h-80">
                 <div id="item1" className="carousel-item w-full">
-                    <img src={a1} alt="" className="w-full" />
+                    <img src={a1} className="w-full" />
                 </div>
                 <div id="item2" className="carousel-item w-full">
-                    <img src={a2} alt="" className="w-full" />
+                    <img src={a2} className="w-full" />
                 </div>
                 <div id="item3" className="carousel-item w-full">
-                    <img src={a3} alt="" className="w-full" />
+                    <img src={a3} className="w-full" />
                 </div>
                 <div id="item4" className="carousel-item w-full">
-                    <img src={a4} alt="" className="w-full" />
+                    <img src={a4} className="w-full" />
                 </div>
             </div>
             <div className="flex justify-center w-full py-2 gap-2">

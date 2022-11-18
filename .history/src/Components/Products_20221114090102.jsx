@@ -4,7 +4,7 @@ import GadgetDetails from './GadgetDetails';
 const Products = () => {
     const [mbl, setMbl] = useState([])
     useEffect(() => {
-        fetch(`https://newserver-mu.vercel.app/products`)
+        fetch(`https:/newserver-mu.vercel.app/products`)
             .then(res => res.json())
             .then(data => setMbl(data))
     }, [])

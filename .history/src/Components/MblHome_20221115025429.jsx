@@ -6,7 +6,7 @@ const MblHome = () => {
     const [mbl, setMbl] = useState([])
 
     useEffect(() => {
-        fetch('https://newserver-mu.vercel.app/productslimit')
+        fetch('https:/newserver-mu.vercel.app/productslimit')
             .then(res => res.json())
             .then(data => setMbl(data))
     }, [])

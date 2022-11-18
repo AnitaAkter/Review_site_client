@@ -18,7 +18,7 @@ const AddReview = ({ productDetails }) => {
             reviewerImage,
         };
 
-        fetch("https://newserver-mu.vercel.app/addreview", {
+        fetch("https:/newserver-mu.vercel.app/addreview", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
